@@ -1,0 +1,18 @@
+Inicidencias encontradas
+
+
+1 - Los campos no posee una longitud maxima definida.
+
+	Descripcion: 
+	
+	AL completar los campos he validado que no poseen un maximo de longitud establecido,
+	esto supondria un problema ya que no se esta validando con exactitud el dato 
+	que se introduce en el sistema.
+	
+	Severidad:  
+	
+		media 
+	
+	Estado:
+	
+		Inicial

@@ -12,5 +12,5 @@ Feature: Registro usuarios nuevos en signaturit
     Then Mostrar_siguiente_mensaje: <validacionMensaje>
 
     Examples: 
-      | nombre | apellido | nombreEmpresa | cargoEmpresa | telefono    | emailEmpresa     | contrasena | validacionMensaje                |
+      | nombre | apellido | nombreEmpresa | cargoEmpresa | telefono  | emailEmpresa     | contrasena | validacionMensaje                |
       | jose   | perez    | empresa1      | gerente      | e59448994 | empresa1@test.es | ABCD1234   | Usuario registrado correctamente |

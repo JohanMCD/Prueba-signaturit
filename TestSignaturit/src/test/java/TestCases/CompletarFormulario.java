@@ -15,21 +15,22 @@ public class CompletarFormulario {
 	static String passwork = "abc123";
 	
 	//Objectos 
-	static String link = "href='/es/register/business'";
-	static String nombreObj = "id='register_first_name'";
-	static String apellidoObj = "id='register_last_name'";
-	static String nombreEmpresaObj = "id='register_company'";
-	static String cargo = "id='register_job_title'";
-	static String telefonoObj = "id='register_phone'";
-	static String emailObj =  "id='register_email'";
-	static String passworkObj = "id='register_password'";
 	static String checkBoxPolitica = "class='info-links-checkbox'";
 	static String botonRegistarte =  "id='register_submit'";
+	static String cargo = "id='register_job_title'";
+	static String linkObj = "href='/es/register/business'";
+	
+	final static String nombreObj = "id='register_first_name'";
+	final static String apellidoObj = "id='register_last_name'";
+	final static String nombreEmpresaObj = "id='register_company'";
+	final static String telefonoObj = "id='register_phone'";
+	final static String emailObj =  "id='register_email'";
+	final static String passworkObj = "id='register_password'";
 	
 	public static void Execute(WebDriver driver){
 		
 		//Hacer clic en link "Consigue una aqui"
-		EventsBehavior.GetObject(driver, link ).click();
+		EventsBehavior.GetObject(driver, linkObj ).click();
 		
 		//Poner nombre 
 		EventsBehavior.GetObject(driver, nombreObj).sendKeys(nombre);

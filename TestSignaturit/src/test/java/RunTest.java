@@ -6,10 +6,10 @@ import org.testng.annotations.Test;
 import TestCases.CerrarAplicacion;
 import TestCases.CompletarFormulario;
 import TestCases.IniciarAplicacion;
+import cucumber.api.java.fa.هنگامی;
 
 
 public class RunTest {
-
 	WebDriver driver;
 	static String url = "https://app.signaturit.com/es/login";
 	
@@ -21,7 +21,7 @@ public class RunTest {
 		driver.manage().window().maximize();
 	}
 	
-	@Test
+	@هنگامی(value = "")
 	public void Regresion (){
 		
 		//Iniciar aplicacion

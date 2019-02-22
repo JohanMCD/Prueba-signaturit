@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="50812" started-at="2019-02-14T12:43:10Z" finished-at="2019-02-14T12:44:01Z">
+  <suite name="Default suite" duration-ms="28224" started-at="2019-02-20T09:03:32Z" finished-at="2019-02-20T09:04:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="50812" started-at="2019-02-14T12:43:10Z" finished-at="2019-02-14T12:44:01Z">
+    <test name="Default test" duration-ms="28224" started-at="2019-02-20T09:03:32Z" finished-at="2019-02-20T09:04:01Z">
       <class name="RunTest">
-        <test-method status="PASS" signature="CofigurarEntorno()[pri:0, instance:RunTest@ae45eb6]" name="CofigurarEntorno" is-config="true" duration-ms="4387" started-at="2019-02-14T13:43:10Z" finished-at="2019-02-14T13:43:14Z">
+        <test-method status="PASS" signature="CofigurarEntorno()[pri:0, instance:RunTest@ae45eb6]" name="CofigurarEntorno" is-config="true" duration-ms="4562" started-at="2019-02-20T10:03:32Z" finished-at="2019-02-20T10:03:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CofigurarEntorno -->
-        <test-method status="PASS" signature="Regresion()[pri:0, instance:RunTest@ae45eb6]" name="Regresion" duration-ms="46408" started-at="2019-02-14T13:43:14Z" finished-at="2019-02-14T13:44:00Z">
+        <test-method status="PASS" signature="Regresion()[pri:0, instance:RunTest@ae45eb6]" name="Regresion" duration-ms="23643" started-at="2019-02-20T10:03:37Z" finished-at="2019-02-20T10:04:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Regresion -->

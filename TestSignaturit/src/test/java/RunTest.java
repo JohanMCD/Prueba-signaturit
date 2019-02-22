@@ -21,7 +21,7 @@ public class RunTest {
 		driver.manage().window().maximize();
 	}
 	
-	@هنگامی(value = "")
+	@Test
 	public void Regresion (){
 		
 		//Iniciar aplicacion
